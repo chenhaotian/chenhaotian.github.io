@@ -13,16 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Probabilistic Nexus
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Embrace the certainty of uncertainty, explore machine intelligence through a probabilistic approach.
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+
+
+# twitter_username: username
+github_username: chenhaotian
 minimal_mistakes_skin: default
+# minimal_mistakes_skin: contrast
 search: true
+
+
+# for google search console
+google_site_verification: "svTpPWQr7nq_Oj15xDVwnC1twh_kjYwe6jZq6SpapnQ"
+
+logo: "/assets/images/favicon.svg"
+
+# default teaser image for “Related Posts”
+# can be over writen by blog's own frontmatter through:
+# header:
+#   teaser: /assets/images/post-specific-teaser.jpg
+teaser: /assets/images/dontPickMe.jpg
+
 
 # Build settings
 markdown: kramdown
@@ -58,34 +75,49 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Haotian Chen"
+  avatar : "/assets/images/biom.png"
+  bio    : "Probabilistic model practitioner"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/haotian-chen-359b4520b/"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://chenhaotian.github.io"
+#    - label: "Google Scholar"
+#      icon: "fa-brands fa-fw fa-google-scholar"
+#      url: "https://chenhaotian.github.io"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/chenhaotian"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/haotian-chen-359b4520b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/chenhaotian"
+
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
+
+
+# Use a category based permalink structure e.g.
+# permalink: /:categories/:title/
+
 
 defaults:
   # _posts
@@ -95,10 +127,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
+      permalink: /:categories/:title/
+#      toc: true
+#      toc_sticky: true
+#      toc_label: "Table of Contents"
+      classes: wide
+      # toc_icon: "cog"
   # _pages
   - scope:
       path: "_pages"
@@ -106,6 +144,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      header:
+        image: /assets/images/header.jpg
+#        image_description: "ha ha ha"
 
 category_archive:
   type: liquid
@@ -113,3 +154,22 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# comments provider
+repository: chenhaotian/chenhaotian.github.io
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+    label: "comment" 
+    
+   
+# add your social profile to google knowledge graph
+social:
+  type:  Person
+  name:  Haotian Chen
+  links:
+    - "https://www.linkedin.com/in/haotian-chen-359b4520b/"
+    - "https://github.com/chenhaotian"
+    

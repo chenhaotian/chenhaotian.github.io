@@ -1,0 +1,51 @@
+---
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/header.jpg
+#  actions:
+#    - label: "<i class='fas fa-blog'></i> Start reading"
+#      url: "/posts/"
+excerpt: >
+  Explore machine intelligence through a probabilistic approach
+#  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+#  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.25.1">Latest release v4.25.1</a></small>
+feature_row:
+  - image_path: /assets/images/dontPickMe.jpg
+    alt: "uncertainty"
+    title: "Certainty in uncertainty"
+    excerpt: "XXX"
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "To the category"
+  - image_path: /assets/images/dontPickMe.jpg
+    alt: "fully responsive"
+    title: "Responsive layouts"
+    excerpt: "xxx"
+    url: "/docs/layouts/"
+    btn_class: "btn--primary"
+    btn_label: "To the category"
+  - image_path: /assets/images/dontPickMe.jpg
+    alt: "100% free"
+    title: "100% free"
+    excerpt: "xxx"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "To the category"
+---
+
+<!---
+## Categories
+{% include feature_row %}
+-->
+
+
+## Recent Posts
+
+<div class="grid__wrapper">
+  {% for post in site.posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
