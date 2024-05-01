@@ -82,6 +82,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/haotian-chen-359b4520b/"
+    - label: Generativ<span style="color:red">/e</span>
+      icon: "fa fa-rocket"
+      url: "https://generativeai-tue.github.io/"
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
 #      url: "https://chenhaotian.github.io"
@@ -103,9 +106,13 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/haotian-chen-359b4520b/"
+    - label: Generativ<span style="color:red">/e</span>
+      icon: "fa fa-rocket"
+      url: "https://generativeai-tue.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chenhaotian"
+
 
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
@@ -172,4 +179,5 @@ social:
   links:
     - "https://www.linkedin.com/in/haotian-chen-359b4520b/"
     - "https://github.com/chenhaotian"
+    - "https://generativeai-tue.github.io/"
     
