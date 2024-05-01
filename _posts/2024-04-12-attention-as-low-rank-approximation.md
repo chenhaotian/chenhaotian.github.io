@@ -159,7 +159,7 @@ BibTeX citation:
 ```latex
 @misc{chen2024attentionlowrank,
 	author = {Chen, Haotian},
-	title = {{Breaking down transformers: the core of attention as Low-Rank approximation}},
+	title = {Breaking down transformers: the core of attention as Low-Rank approximation},
 	year = {2024},
 	url = {https://chenhaotian.github.io/models/attention-as-low-rank-approximation/},
 }
