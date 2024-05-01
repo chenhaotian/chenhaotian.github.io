@@ -148,3 +148,28 @@ Thus concluded our discussion. As a recap, we discussed how the self-attention l
 
 
 
+## Citation
+
+For attribution in academic contexts, please cite this work as:
+
+> Chen, H. (2024). Breaking down transformers: the core of attention as Low-Rank approximation. *Probabilistic Nexus*. https://chenhaotian.github.io/models/attention-as-low-rank-approximation/
+
+BibTeX citation:
+
+```latex
+@misc{chen2024attentionlowrank,
+	author = {Chen, Haotian},
+	title = {{Breaking down transformers: the core of attention as Low-Rank approximation}},
+	year = {2024},
+	url = {https://chenhaotian.github.io/models/attention-as-low-rank-approximation/},
+}
+```
+
+
+
+
+
+
+
+
+
